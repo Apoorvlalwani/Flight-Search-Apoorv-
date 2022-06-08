@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://images.pexels.com/photos/1003864/pexels-photo-1003864.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+  }
+  .content {
+      max-width: 500px;
+      margin: auto;
+      padding: 10px;
+  }
+  .jet{
+    border: 10px solid black;
+    height: fit-content;
+    display: inline-block;
+    padding: 45px;
+  }
+  .sort{
+    border: 5px solid black;
+    height: fit-content;
+    display: inline-block;
+    padding: 45px;
+  }

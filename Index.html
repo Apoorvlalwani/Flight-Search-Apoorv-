@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Flight Booking System </title>
+    <link rel="stylesheet" href="/flight.css">
+
+</head>
+<body>
+
+    <div class="content"> 
+                <Span class="jet">
+             <h1> Flight Book System </h1>
+        <form action="">
+            <label for="Trip">
+                <input type="radio" value="One.Way" name="ITrip" id="OneWay"> Domestic Flight 
+                <input type="radio" value="Round.Trip " name="ITrip" id="RoundTrip"> International flight
+                <br><br>
+
+                <input type="radio" value="One.Way" name="Trip" id="OneWay"> One Way 
+                <input type="radio" value="Round.Trip " name="Trip" id="RoundTrip"> Round-Trip
+            </label>
+            <br><br>
+
+            <h2>Select Location</h2>
+            <input type="text" placeholder="From Where  ">
+             <span style='font: size 20px;;'>&#8594;</span>
+             <input type="text" placeholder="To Where  ">
+             <br><br>
+
+             <label>Departure Date</label>
+             <br>
+
+             <input type="date" placeholder="Departure Date">
+             <br>
+             <br>
+
+             <label>Return Date</label>
+             <br>
+             <input type="date" placeholder="Arrival Date">
+             <br>
+             <br>
+
+                <label>Passenger</label><br>
+                   <input type="number" id="number" placeholder="Total No.of ticket ">
+                   <br><br>
+                 
+                <label for="volume"> <b>Price Fliter</b> </label>
+                <span style='font: size 20px;'>&#8594;</span>
+                <span style='font: size 10px;'>&#8377;0</span>
+                    <input type="range" id="range" name="Range " min="0" max="40000">
+                    <span style='font: size 10px;'>&#8377;40000</span>
+                    <br>
+                    <input type="reset" value="Reset"> 
+                    <!-- <input type="submit" value="Search"> -->
+
+                </Span> 
+                <!-- please click on search buttton to process on next page  -->
+        </form >
+                <a href="Booking.html">
+            <button> Click On Search</button>
+        </a>
+    </div>
+</body>
+
+</html>
